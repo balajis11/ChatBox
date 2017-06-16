@@ -53,7 +53,7 @@ function processDetails(value,MtnInfo,event){
                       fulfillmentState: "Fulfilled",
 						message: {
 						  contentType: "PlainText",
-						  content: "Verification Successful. Your billing due amount is "+event.sessionAttributes.amount
+						  content: "Verification Successful. Your billing due amount is $"+event.sessionAttributes.amount
 						}
 					 
 					}
